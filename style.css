@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+  }
+nav img{
+    margin-top: 15px;
+}
+  section {
+    height: 800px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(-60%, #f037a5),
+      color-stop(140%, #fae62d)
+    );
+  }
+  
+  
+  footer {
+    height: 550px;
+    background-color: black;
+  }
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+}
+nav ul li a:hover{
+    color: #1ed760;
+}
+
+.hero-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+    display: flex;
+    justify-content: center;
+    
+  }
+
+#title {
+    margin-top: -130px;
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+section .container {
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+.btn-spotify {
+    border: 0px;
+    width: 260px;
+    color: white;
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 18px 42px 18px;
+    background-color: #1db954;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+    display: flex;
+    justify-content: center;
+}
+.btn-spotify:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+}
+.container h3{
+      text-align: center;
+      color: #ffffff;
+      margin-top: -50px;
+      font-size: 18px;
+      margin-bottom: 20px;
+}
+.footer-items{
+    padding-top: 100px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-around;
+}
+.color-nav{
+    color:  #d9dadc;
+}
+.color-title{
+    color:  #d9dadc;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.color-title li{
+    list-style: none;
+}
+.items ul li {
+    list-style: none;
+}
+.items ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0 15px;
+    text-decoration: none;
+}
+.items ul li a:hover{
+    color: #1db954;
+}
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+  }
+.column > h1 {
+    color: #919496;
+    font-size: 13.5px;
+  }
+  
+  .column > h1,
+  p {
+    margin-bottom: 15px;
+  }
+  
+  .footer-logo {
+    display: flex;
+  }
+  
+  .footer-logo > h1 {
+    color: white;
+    font-size: 2em;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-icons {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .footer-icons i{
+      font-size: 28px;
+      margin-left: 13px;
+      margin-top: 10px;
+  }
+  .footer-icons i:hover{
+    color: green;
+}
+  .circle{
+    background-color: #222326;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin: 0 15px;
+      
+  }
+  .footer-icons > .fab {
+    margin: 15px;
+  }
+  
+  .footer-icons > .fab:hover {
+    color: green;
+  }
+  
+  .footer {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .container > .left {
+    flex: 1;
+    justify-content: space-between;
+  }
+  .container > .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .fab {
+    font-size: 50px;
+  }
+  
+  a:hover {
+    color: green;
+  }
+  
+  .column > p:hover {
+    color: green;
+    cursor: pointer;
+  }
+  
+  .left > p:hover {
+    color: green;
+  }
+  .column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .spotify-logo {
+    width: 132px;
+    height: 41.88px;
+  }
+  .container{
+      display: flex;
+      justify-content: space-around;
+      color: #ffffff;
+      padding-top: 80px;
+      padding-left: 80px;
+  }
+ .bottom{
+      display: flex;
+      justify-content: flex-end;
+      color: #919496;
+      margin-right: 100px;
+      margin-top: 100px;
+      font-size: 14px;
+      font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  }
+  .bottom img{
+      margin-left: 10px;
+      margin-top: -5px;
+  }
+  .left{
+    display: flex;
+    padding-left: 80px;
+
+  }
+  .left ul{
+      display: flex;
+      
+  }
+  .left ul li { 
+      list-style: none;
+      
+  }
+  .left ul li a{
+      text-decoration: none;
+      color: #919496;
+      font-size: 13px;
+      margin-right: 15px;
+      font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  }
+  .left ul li a:hover{
+    color: green;
+  }
+  .right{
+    font-size: 13px;
+    color: #919496;
+    margin-left: 280px;
+    margin-top: 5px;
+  }
+
+.covid-title{
+   
+    margin: 30px 0 20px 150px;
+}
+
+.covid-title h1{
+    font-size: 24px;
+    color: #2D46B9;;
+    font-weight: 700;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    
+}
+.covid-items{
+    display: flex;
+    margin-top: -15px;
+}
+.covid-items h2{
+    font-size: 18px;
+}
+.covid-items h3{
+    font-size: 16px;
+    text-decoration: underline;
+    padding-left: 5px;
+}
